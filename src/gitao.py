@@ -1,5 +1,12 @@
+#
+# gitao - gitao.py
+#
+
+import parse
+
+
 def main():
-	pass
+	command, arguments, flags = parse.parseArguments()
 
 if __name__ == '__main__':
 	main()
