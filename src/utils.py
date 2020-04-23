@@ -1,6 +1,8 @@
-#
-# gitao - utils.py
-#
+"""
+gitao - utils.py
+
+Common utility functions used by gitao
+"""
 
 import sys
 

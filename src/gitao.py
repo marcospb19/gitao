@@ -1,12 +1,17 @@
-#
-# gitao - gitao.py
-#
+"""
+gitao - gitao.py
 
-import parse
+Main file
+"""
+
+import parse # parse.py
 
 
-def main():
+def main() -> None:
+	""" Main function """
+
 	command, arguments, flags = parse.parseArguments()
+
 
 if __name__ == '__main__':
 	main()
